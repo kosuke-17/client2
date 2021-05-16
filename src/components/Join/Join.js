@@ -24,5 +24,4 @@ const Join = () => {
     </div>
   );
 }
-
 export default Join;

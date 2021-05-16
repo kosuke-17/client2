@@ -1,9 +1,8 @@
 import React from 'react';
 
-
 import './Input.css';
 
-const Input = ({ message, setMessage, sendMessage }) => (
+const Input = ({ setMessage, sendMessage, message }) => (
   <form className="form">
     <input
       className="input"
@@ -15,6 +14,6 @@ const Input = ({ message, setMessage, sendMessage }) => (
     />
     <button className="sendButton" onClick={(event) => sendMessage(event)}>送信</button>
   </form>
-);
+)
 
 export default Input;
